@@ -1,5 +1,5 @@
 import './scss/main.scss';
-const apiUrl = "http://localhost:3000/workexperience";
+const apiUrl = "https://lab2-backend-v8ix.onrender.com/workexperience";
 
 document.getElementById("add-form").addEventListener("submit", async (e) => {
     e.preventDefault();
